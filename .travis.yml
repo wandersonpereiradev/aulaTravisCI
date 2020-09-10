@@ -1,0 +1,7 @@
+language: python
+python:
+ - "3.8.5"
+before script:
+ - cd src
+script:
+ - python teste.py
